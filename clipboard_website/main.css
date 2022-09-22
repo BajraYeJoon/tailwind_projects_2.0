@@ -32,3 +32,8 @@ body {
     background-size: contain;
   }
 }
+
+.icon:hover {
+  filter: invert(54%) sepia(66%) saturate(400%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
