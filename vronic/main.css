@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav {
+  background-image: url("./images/desktop/vr_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  #nav {
+    background-image: url("./images/mobile/vr_hero_mobile.jpg");
+    background-position: center;
+  }
+}
